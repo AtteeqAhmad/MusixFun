@@ -22,9 +22,9 @@ export default class Song {
 
     <img src="${this.albumArt}">
     <class="this.title text-truncate">${this.title}
-    <class="this.collection">${this.collection}
-    <class="this.artist">${this.artist}
-<class="this.price">${this.price}
+    <class="this.collection text-truncate">${this.collection}
+    <class="this.artist text-truncate">${this.artist}
+<class="this.price text-truncate">${this.price}
     </div>
     </div>
     `
